@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Кофе</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="table">
+     <column>
+      <property name="text">
+       <string>название сорта</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>степень обжарки</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>молотый/в зернах</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>описание вкуса</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>цена руб.</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>объем упаковки л.</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
